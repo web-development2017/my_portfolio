@@ -1,0 +1,10 @@
+.custom{padding: 70px 30px}
+.navbar-toggler-icon{
+    width:20px;
+    height:20px;
+}
+@media only screen and (min-width: 992px) {
+    .gatsby-image-wrapper{
+        min-height: 320px; max-height: 320px;
+    }    
+}

@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Portfolio",
+      "slug": "project-1",
+      "githuburl": "https://www.github.com/",
+      "projecturl": "https://www.github.com/",
+      "image": "./images/portfolio.png",
+      "description": "The portfolio that I built with Gatsby JS."
+    },
+    {
+      "title": "GitHub Clone",
+      "slug": "project-2",
+      "githuburl": "https://example.org/",
+      "projecturl": "https://www.github.com/",
+      "image": "./images/GitHubClone.png",
+      "description": "A clone of GitHub I built. I used Bootstrap and SASS."
+    },
+    {
+      "title": "Book List React App",
+      "slug": "project-3",
+      "githuburl": "https://examples.org/",
+      "projecturl": "https://www.github.com/",
+      "image": "./images/ReadingList.png",
+      "description": "A reading list web app that uses React and Local Storage."
+    }
+]
