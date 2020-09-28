@@ -9,7 +9,7 @@ const ProjectPreview = ({ title, description, githuburl, projecturl, imageData }
     <div className="col-sm-12 col-lg-6">
       <Card className="mb-5">
         <Image fluid={imageData} alt={title} />
-        <Card.Body id="card-body-button">
+        <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>
             {description}

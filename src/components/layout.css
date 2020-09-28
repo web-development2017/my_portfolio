@@ -1,10 +1,35 @@
+p{font-size: 1.2em;}
 .custom{padding: 70px 30px}
 .navbar-toggler-icon{
     width:20px;
     height:20px;
 }
+
+/* .col-sm-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+} */
+
 @media only screen and (min-width: 992px) {
     .gatsby-image-wrapper{
         min-height: 320px; max-height: 320px;
     }    
+    .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
+
+@media only screen and (max-width: 991px) {
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 49%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
