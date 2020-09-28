@@ -12,15 +12,15 @@ export default function About() {
           <p>I'm currently looking for an opportunity to work with a company that will support me in my initial role and guide me towards a suitable future career.</p>
           <p>Please feel free to visit my <Link to="/contact">contact</Link> section to contact me.</p>
 
-          <h2>Languages that I have used the most:</h2>
+          <h3>Languages that I have used the most:</h3>
           <p>HTML, CSS, JavaScript, mySQL.</p>
-          <h2>Technologies that I have used the most:</h2>
+          <h3>Technologies that I have used the most:</h3>
           <p>Bootstrap, Node, Electron, GitHub, Git, Firebase.</p>
-          <h2>Other languages I've used but not as proficient with:</h2>
+          <h3>Other languages I've used but not as proficient with:</h3>
           <p>PHP, Python, Dart, C#, C++.</p>
-          <h2>Other technologies I've used but not as proficient with:</h2>
+          <h3>Other technologies I've used but not as proficient with:</h3>
           <p>React, Gatsby, Laravel, Unity, Azure.</p>
-          <h2>Languages and technologies interested in learning more:</h2>
+          <h3>Languages and technologies interested in learning more:</h3>
           <p>Rust, Deno, Containers, AWS, Internet Of Things.</p>
         </Layout>
     );
