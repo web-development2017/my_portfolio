@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
 
+import { motion } from "framer-motion";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 
-const AboutContent = () => (
+const AboutContent = () => (    
     <div className="row about">
         <div className="col-sm-12 col-lg-8 mb-sm-5 pr-lg-5">
           <h1 className="mb-5">About Me</h1>
@@ -25,7 +27,11 @@ const AboutContent = () => (
           <p>Rust, Deno, Containers, AWS, Microsoft Graph, Internet Of Things, GPT-3.</p>
         </div>
         
-        <div className="col-sm-12 col-lg-4 text-center mt-5 mt-lg-0">
+        <motion.div
+            initial={{x: 450 }} 
+            animate={{ x: 0 }}
+            transition={{ delay: 0.2, duration: 0.8, type: 'tween' }}
+             className="col-sm-12 col-lg-4 text-center mt-5 mt-lg-0">
             <div className="row justify-content-sm-between justify-content-lg-center">
                 <Card className="mb-5 col-xs-12 col-sm-6 col-lg-12">
                     <Card.Body>
@@ -62,7 +68,7 @@ const AboutContent = () => (
                     </Card.Body>
                 </Card>
             </div>
-        </div>
+        </motion.div>
     </div>
 )
 

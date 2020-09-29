@@ -5,7 +5,7 @@
       "githuburl": "https://github.com/web-development2017/my_portfolio",
       "projecturl": "https://zen-euler-594146.netlify.app/",
       "image": "./images/portfolio.png",
-      "description": "The portfolio that I built with Gatsby JS."
+      "description": "The portfolio that I built with Gatsby JS, Bootsrap and Framer Motion."
     },
     {
       "title": "GitHub Clone",
