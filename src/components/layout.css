@@ -5,29 +5,35 @@ p{font-size: 1.2em;}
     height:20px;
 }
 
-/* .col-sm-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
-} */
+/*
+>>> only apply to class .card-text if it is a descendant of class .home <<<
+
+Problem: the card height will increase with the increased amount of text.
+With min-height set on .card-text, all cards remain the same height.
+*/
+.home .card-text{min-height: 56px;}
 
 @media only screen and (min-width: 992px) {
     .gatsby-image-wrapper{
         min-height: 320px; max-height: 320px;
-    }    
-    .col-sm-6 {
+    }  
+    /* Select only .col-sm-6 if inside class about   */
+    .about .col-sm-6 {
         flex: 0 0 100%;
         max-width: 100%;
     }
 }
 
 @media only screen and (max-width: 991px) {
-    .col-sm-6 {
+    /* Select only .col-sm-6 if inside class about   */
+    .about .col-sm-6 {
         flex: 0 0 50%;
         max-width: 49%;
     }
 }
 @media only screen and (max-width: 576px) {
-    .col-sm-6 {
+    /* Select only .col-sm-6 if inside class about   */
+    .about .col-sm-6 {
         flex: 0 0 100%;
         max-width: 100%;
     }

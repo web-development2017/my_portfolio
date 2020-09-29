@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <Layout>
       <h1 className="mb-5">Portfolio</h1>
-      <div className="row">
+      <div className="row home">
         {projects.map(({ node: project }) => {
           const title = project.title;
           const description = project.description;

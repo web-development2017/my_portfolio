@@ -2,15 +2,15 @@
     {
       "title": "Portfolio",
       "slug": "project-1",
-      "githuburl": "https://www.github.com/",
-      "projecturl": "https://www.github.com/",
+      "githuburl": "https://github.com/web-development2017/my_portfolio",
+      "projecturl": "https://zen-euler-594146.netlify.app/",
       "image": "./images/portfolio.png",
       "description": "The portfolio that I built with Gatsby JS."
     },
     {
       "title": "GitHub Clone",
       "slug": "project-2",
-      "githuburl": "https://example.org/",
+      "githuburl": "https://github.com/web-development2017/github_clone",
       "projecturl": "https://www.github.com/",
       "image": "./images/GitHubClone.png",
       "description": "A clone of GitHub I built. I used Bootstrap and SASS."
@@ -18,7 +18,7 @@
     {
       "title": "Book List React App",
       "slug": "project-3",
-      "githuburl": "https://examples.org/",
+      "githuburl": "https://github.com/web-development2017/react_book_list_app",
       "projecturl": "https://www.github.com/",
       "image": "./images/ReadingList.png",
       "description": "A reading list web app that uses React and Local Storage."

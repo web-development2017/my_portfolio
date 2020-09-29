@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 
 const ProjectPreview = ({ title, description, githuburl, projecturl, imageData }) => (
-    <div className="col-sm-12 col-lg-6">
+    <div className="col-xs-12 col-lg-6">
       <Card className="mb-5">
         <Image fluid={imageData} alt={title} />
         <Card.Body>
