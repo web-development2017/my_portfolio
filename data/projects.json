@@ -5,7 +5,7 @@
       "githuburl": "https://github.com/web-development2017/my_portfolio",
       "projecturl": "https://zen-euler-594146.netlify.app/",
       "image": "./images/portfolio.png",
-      "description": "The portfolio that I built with Gatsby JS, Bootsrap and Framer Motion."
+      "description": "The portfolio that I built with Gatsby JS, Bootsrap and Framer Motion. Hosted on Netlify and continuous deployment with GitHub."
     },
     {
       "title": "GitHub Clone",
@@ -18,9 +18,9 @@
     {
       "title": "Book List React App",
       "slug": "project-3",
-      "githuburl": "https://github.com/web-development2017/react_book_list_app",
-      "projecturl": "https://www.github.com/",
+      "githuburl": "https://github.com/web-development2017/react_book_list_app/tree/gh-pages",
+      "projecturl": " https://web-development2017.github.io/react_book_list_app/",
       "image": "./images/ReadingList.png",
-      "description": "A reading list web app that uses React and Local Storage."
+      "description": "A reading list web app that uses React and Local Storage. Hosted on GitHub Pages"
     }
 ]
