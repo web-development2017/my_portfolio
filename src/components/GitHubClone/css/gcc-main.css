@@ -1,0 +1,84 @@
+.gcc-main .jumbotron-codelines {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.6);
+  background: url("../simple-codelines.svg"), #2b3137;
+  background-position: center 10%;
+  background-size: cover;
+}
+
+.gcc-main .needAname {
+  display: block;
+  height: 100%;
+  width: 100%;
+  max-width: 1012px;
+}
+
+.gcc-main .container {
+  height: 100%;
+  line-height: 1.5;
+  max-width: 1012px;
+}
+
+.gcc-main h1 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1 !important;
+}
+
+.gcc-main p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5;
+}
+
+.gcc-main .rounded-1 {
+  border-radius: 6px !important;
+}
+
+.gcc-main .bg-gray-light {
+  background-color: #fafbfc !important;
+}
+
+.gcc-main .text-grey-dark {
+  color: #24292e !important;
+}
+
+.gcc-main .h5 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.gcc-main .form-control {
+  border: 1px solid #ced4da;
+}
+
+.gcc-main .main-form p {
+  font-size: 12px;
+}
+
+.gcc-main .main-form .form-control-note {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #6a737d;
+}
+
+.gcc-main input {
+  min-height: 46px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.gcc-main .btn-success {
+  background-color: #2ebc4f;
+  width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+  .gcc-main .jumbotron-codelines .needAname .container h1 {
+    font-size: 48px;
+  }
+}

@@ -11,7 +11,7 @@ p{font-size: 1.2em;}
 Problem: the card height will increase with the increased amount of text.
 With min-height set on .card-text, all cards remain the same height.
 */
-.home .card-text{min-height: 56px;}
+.home .card-text{min-height: 115px;}
 
 @media only screen and (min-width: 992px) {
     .gatsby-image-wrapper{

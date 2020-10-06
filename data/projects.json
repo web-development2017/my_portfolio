@@ -11,7 +11,7 @@
       "title": "GitHub Clone",
       "slug": "project-2",
       "githuburl": "https://github.com/web-development2017/github_clone",
-      "projecturl": "https://www.github.com/",
+      "projecturl": "https://zen-euler-594146.netlify.app/github-clone",
       "image": "./images/GitHubClone.png",
       "description": "A clone of GitHub I built. I used Bootstrap and SASS."
     },

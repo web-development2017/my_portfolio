@@ -2,23 +2,23 @@
 	color: #fff
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.gcc-nav .navbar-dark .navbar-nav .nav-link {
 	color: #fff
 }
 
-nav ul a {
+.gcc-nav nav ul a {
 	font-size: 16px
 }
 
-nav a {
+.gcc-ul > li > a {
 	color: #fff
 }
 
-nav a:hover {
+.gcc-ul > li > a:hover {
 	color: rgba(255,255,255,0.75)
 }
 
-.nav-link {
+.gcc-nav .nav-link {
 	padding: 16px 0 16px 0
 }
 
@@ -235,6 +235,12 @@ hr {
 } */
 
 @media only screen and (max-width: 1200px) {
+	.gcc-ul > li > a{
+		color: #444d56;
+	}
+	.gcc-ul > li > a:hover{
+		color: #444d56;
+	}
 	.text-gray {
 		color: #586069 !important
 	}
@@ -267,18 +273,18 @@ hr {
 		font-size: 14px
 	}
 
-	nav a {
+	.gcc-nav nav a {
 		color: #444d56
 	}
 
-	.nav-item {
+	.gcc-nav .nav-item {
 		border-bottom: 1px solid #e1e4e8 !important;
 		border-bottom-width: 1px !important;
 		border-bottom-style: solid !important;
 		border-bottom-color: #e1e4e8 !important
 	}
 
-	.navbar-collapse {
+	.gcc-nav .navbar-collapse {
 		color: #444d56;
 		background-color: #fff;
 		position: fixed;
@@ -291,19 +297,19 @@ hr {
 		width: 300px
 	}
 
-	.navbar-collapse.show {
+	.gcc-nav .navbar-collapse.show {
 		visibility: visible
 	}
 
-	.navbar-nav {
+	.gcc-nav .navbar-nav {
 		padding: 0 16px 0 16px
 	}
 
-	.navbar-dark .navbar-nav .nav-link {
+	.gcc-nav .navbar-dark .navbar-nav .nav-link {
 		color: #444d56
 	}
 
-	.navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover {
+	.gcc-nav .navbar-dark .navbar-nav .nav-link:focus,.gcc-nav .navbar-dark .navbar-nav .nav-link:hover {
 		color: #444d56
 	}
 

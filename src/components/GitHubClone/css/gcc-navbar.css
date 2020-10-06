@@ -1,0 +1,246 @@
+.gcc-nav .text-white {
+  color: #fff;
+}
+
+.gcc-nav .navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.gcc-nav nav ul a {
+  font-size: 16px;
+}
+
+.gcc-nav nav a {
+  color: #fff;
+}
+
+.gcc-nav nav a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.gcc-nav .nav-link {
+  padding: 16px 0 16px 0;
+}
+
+.gcc-nav #nav-custom {
+  background-color: #24292e !important;
+}
+
+.gcc-nav .octicon {
+  fill: currentColor;
+}
+
+.gcc-nav .offcanvas-header {
+  display: none;
+}
+
+.gcc-nav .btn {
+  font-size: 16px;
+}
+
+.gcc-nav .btn-outline-custom {
+  color: #fff;
+  border: 1px solid  #e1e4e8;
+}
+
+.gcc-nav .btn-outline-custom:hover {
+  color: #fff;
+  opacity: .75;
+}
+
+.gcc-nav #signIn {
+  padding-right: 16px;
+}
+
+.gcc-nav .btn-dark {
+  background-color: #24292e !important;
+  border: none;
+}
+
+.gcc-nav .form-control {
+  background-color: rgba(255, 255, 255, 0.125);
+  border: none;
+}
+
+.gcc-nav .form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.gcc-nav .dropdown-menu {
+  width: 300px;
+  border-radius: 6px;
+  padding: 24px;
+  -webkit-animation: dropdown-display 0.4s cubic-bezier(0.73, 0.005, 0.22, 1);
+          animation: dropdown-display 0.4s cubic-bezier(0.73, 0.005, 0.22, 1);
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-timing-function: cubic-bezier(0.73, 0.005, 0.22, 1);
+          animation-timing-function: cubic-bezier(0.73, 0.005, 0.22, 1);
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-name: dropdown-display;
+          animation-name: dropdown-display;
+}
+
+@-webkit-keyframes dropdown-display {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.98) translateY(-0.6em);
+            transform: scale(0.98) translateY(-0.6em);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes dropdown-display {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.98) translateY(-0.6em);
+            transform: scale(0.98) translateY(-0.6em);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+  }
+}
+
+.gcc-nav .dropdown-item {
+  padding-left: 0;
+  font-size: 14px;
+  color: #586069;
+}
+
+.gcc-nav .dropdown-header {
+  font-weight: 700;
+}
+
+.gcc-nav .dropdown-item:hover {
+  color: #0366d6 !important;
+}
+
+.gcc-nav .dropdown-menu h4 {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6a737d;
+}
+
+.gcc-nav hr {
+  width: 100%;
+  color: #444d56;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .gcc-nav .text-gray {
+    color: #586069 !important;
+  }
+  .gcc-nav .offcanvas-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0px;
+    padding: 16px;
+    background-color: #fafbfc !important;
+    border-bottom: 1px solid #e1e4e8 !important;
+  }
+  .gcc-nav #signIn {
+    background-color: #fff !important;
+    color: #444d56;
+  }
+  .gcc-nav #mobileSignUp {
+    color: #444d56;
+  }
+  .gcc-nav .btn-close {
+    margin-left: auto;
+    padding: 0;
+  }
+  .gcc-nav .btn {
+    font-size: 14px;
+  }
+  .gcc-nav nav a {
+    color: #444d56;
+  }
+  .gcc-nav nav a:hover {
+    color: #24292e;
+  }
+  .gcc-nav .nav-item {
+    border-bottom: 1px solid #e1e4e8 !important;
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: #e1e4e8 !important;
+  }
+  .gcc-nav .navbar-collapse {
+    color: #444d56;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+    visibility: hidden;
+    z-index: 100;
+    width: 300px;
+  }
+  .gcc-nav .navbar-collapse.show {
+    visibility: visible;
+  }
+  .gcc-nav .navbar-nav {
+    padding: 0 16px 0 16px;
+  }
+  .gcc-nav .navbar-dark .navbar-nav .nav-link {
+    color: #444d56;
+  }
+  .gcc-nav .navbar-dark .navbar-nav .nav-link:focus, .gcc-nav .navbar-dark .navbar-nav .nav-link:hover {
+    color: #444d56;
+  }
+  .gcc-nav #navbarDropdown:hover {
+    color: #444d56;
+  }
+  .gcc-nav #navbarDropdown1:hover {
+    color: #444d56;
+  }
+  .gcc-nav #navbarDropdown2:hover {
+    color: #444d56;
+  }
+  .gcc-nav #navbarDropdown:not(:hover) {
+    color: #444d56;
+  }
+  .gcc-nav #navbarDropdown1:not(:hover) {
+    color: #444d56;
+  }
+  .gcc-nav #navbarDropdown2:not(:hover) {
+    color: #444d56;
+  }
+  .gcc-nav .dropdown-menu {
+    -webkit-animation: none !important;
+    animation: none !important;
+    width: auto;
+    border: none;
+    padding: 0px;
+  }
+  .gcc-nav .dropdown-toggle::after {
+    float: right;
+  }
+  .gcc-nav .navbar-collapse form {
+    padding: 0px 16px 0px 16px;
+  }
+  .gcc-nav .navbar-collapse form .form-control {
+    border: 1px solid #eaecef;
+  }
+  .gcc-nav .navbar-collapse .form-control::-webkit-input-placeholder {
+    color: #444d56;
+  }
+}

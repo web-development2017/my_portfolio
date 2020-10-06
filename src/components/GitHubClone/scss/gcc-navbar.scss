@@ -1,0 +1,176 @@
+.gcc-nav {
+    .text-white {
+        color: #fff;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #fff
+    }
+    nav {
+        ul a {font-size: 16px;}
+        a{color: #fff;}
+        a:hover{
+            color:rgba(255,255,255,.75);
+        }        
+    }
+    .nav-link{padding: 16px 0 16px 0}
+    #nav-custom{background-color:#24292e!important;}
+
+    .octicon {fill: currentColor;}
+
+    .offcanvas-header{ display:none; }
+    
+    .btn{font-size:16px}
+    .btn-outline-custom {
+        color:  #fff;
+        border: 1px solid  #e1e4e8;
+    }
+    .btn-outline-custom:hover {
+        color:  #fff;
+        opacity: .75;
+    }
+    #signIn{padding-right: 16px;}
+    .btn-dark{
+        background-color: #24292e!important;
+        border: none;
+    }
+    
+    .form-control{
+        background-color: hsla(0,0%,100%,.125);
+        border: none
+    }
+    
+    .form-control::-webkit-input-placeholder {
+        color: hsla(0,0%,100%,.7);
+    }
+    
+    .dropdown-menu{
+        width: 300px;
+        border-radius: 6px;
+        padding: 24px;
+
+        animation: dropdown-display .4s cubic-bezier(.73,.005,.22,1);
+        animation-duration: 0.4s;
+        animation-timing-function: cubic-bezier(0.73, 0.005, 0.22, 1);
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: dropdown-display;
+    }
+    @keyframes dropdown-display{
+        0% {
+            opacity: 0;
+            transform: scale(.98) translateY(-.6em);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1) translateY(0);
+        }
+    }
+    .dropdown-item{
+        padding-left: 0;
+        font-size: 14px;
+        color: #586069;
+    }
+    .dropdown-header{font-weight: 700;}
+    .dropdown-item:hover{color:#0366d6!important;}
+    .dropdown-menu {
+        h4{
+            font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+            font-weight: 400;
+            font-size:14px;
+            color: #6a737d;
+        }
+    }
+    hr{
+        width: 100%; color:#444d56; margin: 5px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .gcc-nav{
+        .text-gray {
+            color: #586069 !important;
+        }
+        .offcanvas-header{
+            display: flex;
+            margin: 0px; 
+            padding: 16px;
+            background-color: #fafbfc!important;
+            border-bottom: 1px solid #e1e4e8!important;
+        }
+        #signIn{
+            background-color:  #fff !important;
+            color: #444d56;
+        }
+        #mobileSignUp{
+            color: #444d56;
+        }
+        .btn-close{
+            margin-left:auto;
+            padding: 0;
+        }
+        .btn{font-size:14px}
+        nav a{color: #444d56;}
+        nav a:hover{color: #24292e;}
+        .nav-item{
+            border-bottom: 1px solid  #e1e4e8!important;
+            border-bottom-width: 1px !important;
+            border-bottom-style: solid !important;
+            border-bottom-color: rgb(225, 228, 232)!important;
+        }
+        .navbar-collapse {
+            color:#444d56;
+            background-color: #fff;
+    
+            position: fixed;
+            top:0; 
+            bottom: 0;
+            right:0;
+        
+            overflow-y: auto;
+            visibility: hidden;
+            z-index: 100;
+    
+            width:300px;
+        }
+        .navbar-collapse.show {
+            visibility: visible;
+        }
+        .navbar-nav{padding: 0 16px 0 16px;}
+
+        .navbar-dark .navbar-nav .nav-link{color: #444d56;}
+        .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {color: #444d56;}
+
+        #navbarDropdown:hover {color: #444d56;}
+        #navbarDropdown1:hover {color: #444d56;}
+        #navbarDropdown2:hover {color: #444d56;}
+        #navbarDropdown:not(:hover){color: #444d56;}
+        #navbarDropdown1:not(:hover){color: #444d56;}
+        #navbarDropdown2:not(:hover){color: #444d56;}
+
+        .dropdown-menu{
+            -webkit-animation: none !important;
+            -moz-animation: none !important;
+            -o-animation: none !important;
+            -ms-animation: none !important;
+            animation: none !important;
+    
+            width: auto;
+            border: none;
+            padding: 0px;
+        }
+        .dropdown-toggle::after {float: right;}
+        .navbar-collapse{
+            form{
+                padding: 0px 16px 0px 16px;
+                .form-control{
+                    border: 1px solid #eaecef;
+                }
+            }
+            .form-control::-webkit-input-placeholder {
+                color: #444d56;
+            }
+        }
+    }
+}
