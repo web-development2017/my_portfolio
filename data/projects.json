@@ -28,7 +28,7 @@
       "slug": "project-4",
       "githuburl": "https://github.com/web-development2017/heroku_book_app",
       "projecturl": "https://book-app-heroku.herokuapp.com/",
-      "image": "./images/bookshelf-3981515_1280.png",
+      "image": "./images/bookshelf.png",
       "description": "A React project I've been working on that is hosted on Heroku"
     }
 ]
