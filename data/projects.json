@@ -22,5 +22,13 @@
       "projecturl": " https://web-development2017.github.io/react_book_list_app/",
       "image": "./images/ReadingList.png",
       "description": "A reading list web app that uses React and Local Storage. Hosted on GitHub Pages"
+    },
+    {
+      "title": "React Book App",
+      "slug": "project-4",
+      "githuburl": "https://github.com/web-development2017/heroku_book_app",
+      "projecturl": "https://book-app-heroku.herokuapp.com/",
+      "image": "./images/book-67049_1280.jpg.png",
+      "description": "A React project I've been working on that is hosted on Heroku"
     }
 ]
