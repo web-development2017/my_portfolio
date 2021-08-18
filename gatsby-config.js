@@ -11,7 +11,7 @@ module.exports = {
     titleTemplate: "%s · My Portfolio",
     description: "My web development portfolio to showcase projects I've built.",
     url: "https://zen-euler-594146.netlify.app", // No trailing slash allowed!
-    image: "/images/myProfileImage.jpeg",
+    image: "/myProfileImage.jpeg",
     twitterUsername: "@occlumency"
 
     // bsminjs: '"src": "https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js", "type": "text/javascript", "defer": "true"',
