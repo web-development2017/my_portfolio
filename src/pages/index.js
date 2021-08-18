@@ -2,7 +2,8 @@ import React from "react";
 import { graphql, useStaticQuery } from 'gatsby';
 import Layout from '../components/layout';
 import ProjectPreview from '../components/project-preview';
-import Head from "../components/head";
+// import Head from "../components/head";
+import SEO from "../components/seo";
 
 const Home = () => {
   const data = useStaticQuery(graphql`
@@ -32,7 +33,8 @@ const Home = () => {
 
   return (
     <Layout>
-      <Head title="Home" />
+      {/* <Head title="Home" /> */}
+      <SEO title="Home" />
       <h1 className="mb-5">Portfolio</h1>
       <div className="row home">
         {projects.map(({ node: project }) => {
