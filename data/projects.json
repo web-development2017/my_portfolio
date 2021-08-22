@@ -29,6 +29,6 @@
       "githuburl": "https://github.com/web-development2017/heroku_book_app",
       "projecturl": "https://book-app-heroku.herokuapp.com/",
       "image": "./images/bookshelf.jpg",
-      "description": "A React project I've been working on that is hosted on Heroku"
+      "description": "A React project I'm working on that uses materialize, Google Books Api, Google Auth Library. Hosted on Heroku"
     }
 ]
