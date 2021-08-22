@@ -11,18 +11,18 @@ const AboutContent = () => (
         <div className="col-sm-12 col-lg-8 mb-sm-5 pr-lg-5">
           <h1 className="mb-5">About Me</h1>
           <p>Hi, my name's Richard, and I'm a self-taught web developer seeking a career change and to find my first job in web development.</p>
-          <p>I have decided to pursue a career in web development because I appreciate the enriching benefits technology can achieve for business and personal use, and the increasing growth of the digital sector.</p>
-          <p>I'm currently looking for an opportunity to work with a company that will support me in my initial role and guide me towards a suitable future career.</p>
+          <p>I have decided to pursue a career in web development because I appreciate the enriching benefits technology can achieve for business and the increasing growth of the digital sector.</p>
+          <p>I'm currently looking to work with a company that will support me in an entry-level role and guide me towards a suitable future career.</p>
           <p className="mb-5">Please feel free to visit my <Link to="/contact">contact</Link> section to contact me.</p>
 
           <h5 className="mb-2">Languages that I have used the most:</h5>
           <p>HTML, CSS, JavaScript, SQL.</p>
           <h5 className="mb-2">Technologies that I have used the most:</h5>
-          <p>MySQL, Bootstrap, Materialize, Node, Electron, GitHub, Git, Firebase, SASS.</p>
+          <p>React, MySQL, Bootstrap, Materialize, Node, Electron, GitHub, Git, Firebase, SASS.</p>
           <h5 className="mb-2">Other languages I've used but not as proficient with:</h5>
           <p>PHP, Python, Dart, C#, C++.</p>
           <h5 className="mb-2">Other technologies I've used but not as proficient with:</h5>
-          <p>React, Gatsby, PWA, Flutter, Laravel, Unity, Azure, MongoDB.</p>
+          <p>Gatsby, PWA, Flutter, Laravel, Unity, Azure, MongoDB.</p>
           <h5 className="mb-2">Languages and technologies interested in learning more:</h5>
           <p>Rust, Deno, Containers, AWS, Microsoft Graph, Internet Of Things, GPT-3.</p>
         </div>
