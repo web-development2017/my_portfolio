@@ -42,7 +42,7 @@ const AboutContent = () => (
                     </Card.Body>
                     <Card.Body>
                         {/* <Link className="d-block" to="/cv">CV</Link> */}
-                        <Card.Link href="https://github.com/web-development2017/my_portfolio/blob/master/src/components/Resume-Richard-Taylor.pdf" target="_blank" rel="noopener noreferrer">CV</Card.Link>
+                        <Card.Link href="https://github.com/web-development2017/my_portfolio/blob/master/src/components/Resume-RST-V0.2.pdf" target="_blank" rel="noopener noreferrer">CV</Card.Link>
                     </Card.Body>
                 </Card>
                 <Card className="mb-5 col-xs-12 col-sm-6 col-lg-12">
