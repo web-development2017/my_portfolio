@@ -54,7 +54,7 @@ const AboutContent = () => (
                         </Card.Text>
                     </Card.Body>
                     <Card.Body>
-                        <Card.Link href="https://www.www.linkedin.com/in/rich-web-dev" target="_blank" rel="noopener noreferrer">LinkedIn</Card.Link>
+                        <Card.Link href="https://www.linkedin.com/in/rich-web-dev" target="_blank" rel="noopener noreferrer">LinkedIn</Card.Link>
                     </Card.Body>
                 </Card>
                 <Card className="mb-5 col-xs-12 col-sm-6 col-lg-12">
